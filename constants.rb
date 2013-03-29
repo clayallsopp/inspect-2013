@@ -1,7 +1,7 @@
 module Constants
   module_function
 
-  def const_int_get(base, value)
+  def get(base, value)
     case value
     when Integer
       value
